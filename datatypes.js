@@ -18,9 +18,11 @@ console.log(typeof firstName);
 // string interpolation ->injecting values into strings -> we must use the back ticks for interpolation
 
 console.log(`Jane ${lastName},age is ${2025 - 2000}`);
-console.log(`${firstName} ${lastName} ${studentName}`);
+console.log(`${firstName} ${lastName} ${studentName} ${"$400000"}`);
 
 // string concatenation (bring together strings)using the + operator
 console.log(firstName + " " + lastName);
 // OR
 console.log("Jane" + " Doe");
+
+const money = "$" + 60000;
